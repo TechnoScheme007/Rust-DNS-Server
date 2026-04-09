@@ -1,0 +1,26 @@
+/target
+*.exe
+*.pdb
+*.dll
+*.so
+*.dylib
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TLS certs (don't commit these)
+certs/
+*.pem
+*.key
+
+# Logs
+*.log
